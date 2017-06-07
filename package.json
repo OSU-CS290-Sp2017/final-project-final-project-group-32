@@ -1,0 +1,26 @@
+{
+  "name": "final-project-final-project-group-32",
+  "version": "1.0.0",
+  "description": "Final Project for CS 290",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OSU-CS290-Sp2017/final-project-final-project-group-32.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OSU-CS290-Sp2017/final-project-final-project-group-32/issues"
+  },
+  "homepage": "https://github.com/OSU-CS290-Sp2017/final-project-final-project-group-32#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "express-handlebars": "^3.0.0",
+    "handlebars": "^4.0.10"
+  }
+}

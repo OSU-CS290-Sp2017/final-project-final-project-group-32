@@ -1,0 +1,68 @@
+/*colors
+ED174B - red
+E8003D - dark red
+006BB7 - blue
+5E92B5 - light blue
+000000 - black
+FFFFFF - white
+*/
+
+body {
+  margin: 0;
+  font-family: Roboto, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.site-title{
+  margin: 0;
+  text-align: center;
+  font-size: 35px;
+  color: #006bb7;
+}
+
+.navbar {
+  background-color: #006bb7;
+}
+
+.navlist {
+
+}
+
+.navitem {
+  display: inline-block;
+  text-align: center;
+  background-color: #006bb7;
+  font-size: 15px;
+  padding: 10px;
+}
+
+.navitem a {
+  color: #FFFFFF;
+}
+
+.navitem:hover {
+  background-color: #ED174B;
+}
+
+.active {
+  background-color: #ed174b;
+  color: #FFFFFF;
+}
+
+.error-container {
+  text-align: center;
+  background-color: #5E92B5;
+  color: #000000;
+  margin-top: 25px;
+}
+
+.error-container h2 {
+  font-size: 50px;
+}
+
+.error-container h3 {
+  font-size: 25px;
+}
