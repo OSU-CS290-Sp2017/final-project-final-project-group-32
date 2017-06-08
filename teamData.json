@@ -1,0 +1,122 @@
+[
+  {
+    "teamname": "Golden State Warriors",
+    "conference": "western"
+  },
+  {
+    "teamname": "LA Clippers",
+    "conference": "western"
+  },
+  {
+    "teamname": "Los Angeles Lakers",
+    "conference": "western"
+  },
+  {
+    "teamname": "Phoenix Suns",
+    "conference": "western"
+  },
+  {
+    "teamname": "Sacramento Kings",
+    "conference": "western"
+  },
+  {
+    "teamname": "Dallas Mavericks",
+    "conference": "western"
+  },
+  {
+    "teamname": "Houston Rockets",
+    "conference": "western"
+  },
+  {
+    "teamname": "Memphis Grizzlies",
+    "conference": "western"
+  },
+  {
+    "teamname": "New Orleans Pelicans",
+    "conference": "western"
+  },
+  {
+    "teamname": "San Antonio Spurs",
+    "conference": "western"
+  },
+  {
+    "teamname": "Denver Nuggets",
+    "conference": "western"
+  },
+  {
+    "teamname": "Minnesota Timberwolves",
+    "conference": "western"
+  },
+  {
+    "teamname": "Oklahoma City Thunder",
+    "conference": "western"
+  },
+  {
+    "teamname": "Portland Trail Blazers",
+    "conference": "western"
+  },
+  {
+    "teamname": "Utah Jazz",
+    "conference": "western"
+  },
+  {
+    "teamname": "Boston Celtics",
+    "conference": "eastern"
+  },
+  {
+    "teamname": "Brooklyn Nets",
+    "conference": "eastern"
+  },
+  {
+    "teamname": "New York Knicks",
+    "conference": "eastern"
+  },
+  {
+    "teamname": "Philadelphia 76ers",
+    "conference": "eastern"
+  },
+  {
+    "teamname": "Toronto Raptors",
+    "conference": "eastern"
+  },
+  {
+    "teamname": "Chicago Bulls",
+    "conference": "eastern"
+  },
+  {
+    "teamname": "Cleveland Cavaliers",
+    "conference": "eastern"
+  },
+  {
+    "teamname": "Detroit Pistons",
+    "conference": "eastern"
+  },
+  {
+    "teamname": "Indiana Pacers",
+    "conference": "eastern"
+  },
+  {
+    "teamname": "Milwaukee Bucks",
+    "conference": "eastern"
+  },
+  {
+    "teamname": "Atlanta Hawks",
+    "conference": "eastern"
+  },
+  {
+    "teamname": "Charlotte Hornets",
+    "conference": "eastern"
+  },
+  {
+    "teamname": "Miami Heat",
+    "conference": "eastern"
+  },
+  {
+    "teamname": "Orlando Magic",
+    "conference": "eastern"
+  },
+  {
+    "teamname": "Washington Wizards",
+    "conference": "eastern"
+  }
+]
