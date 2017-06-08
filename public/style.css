@@ -5,11 +5,13 @@ E8003D - dark red
 5E92B5 - light blue
 000000 - black
 FFFFFF - white
+D3D3D3 - light gray
 */
 
 body {
   margin: 0;
   font-family: Roboto, Helvetica, sans-serif;
+  background-color: #D3D3D3;
 }
 
 a {
@@ -19,8 +21,9 @@ a {
 .site-title{
   margin: 0;
   text-align: center;
-  font-size: 35px;
+  font-size: 100px;
   color: #006bb7;
+  padding 20px;
 }
 
 .navbar {
@@ -28,19 +31,33 @@ a {
 }
 
 .navlist {
-
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  width: 100%;
+  height: 44px;
 }
 
 .navitem {
-  display: inline-block;
-  text-align: center;
+  float: left;
   background-color: #006bb7;
-  font-size: 15px;
-  padding: 10px;
+  font-size: 20px;
+  border-right: 1px solid #FFFFFF;
+}
+
+.navitem:first-child {
+  margin-left: 20px;
+}
+
+.navitem:last-child {
+  border-right: none;
 }
 
 .navitem a {
+  display: inline-block;
   color: #FFFFFF;
+  padding: 10px;
+  text-align: center;
 }
 
 .navitem:hover {
@@ -65,4 +82,56 @@ a {
 
 .error-container h3 {
   font-size: 25px;
+}
+
+.team-page {
+  display: flex;
+  justify-content: center;
+}
+
+.team-page:last-child {
+  justify-content: flex-end;
+}
+
+.conf {
+  margin: 50px;
+  width: 40%;
+  border: 2px solid #000000;
+  background-color: #FFFFFF;
+}
+
+.table-title {
+  font-size: 40px;
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+}
+
+.league-table {
+  color: #000000;
+}
+
+table {
+  width: 100%;
+  border-spacing: 0;
+}
+
+.table-header {
+  text-align: left;
+  font-size: 20px;
+}
+
+th {
+  padding: 8px;
+  text-align: left;
+  font-size: 20px;
+  border: none
+}
+
+thead th {
+  border-bottom: 2px solid #000000;
+}
+
+tr:nth-child(even) {
+  background-color: #D3D3D3;
 }
