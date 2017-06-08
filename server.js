@@ -2,11 +2,22 @@
  * Name: Alexander Smith
  * User: smithal5
  */
-
 var path = require('path');
 var fs = require('fs');
 var express = require('express');
 var exphbs = require('express-handlebars');
+
+var MongoClient = require('mongodb').MongoClient;
+var db;
+var error;
+var waiting = [];
+// Connect to the db
+MongoClient.connect("mongodb://localhost:27017/nbaOffseason", function(err, database) {
+  db = database;
+  if(!err) {
+    console.log("We are connected");
+  }
+});
 
 var app = express();
 var port = process.env.PORT || 3000;
@@ -22,8 +33,12 @@ app.get('/', function(req,res,next) {
 });
 
 app.get('/teams', function(req,res,next) {
+  var wTeamInfo = db.collection('teams').find({conference: "western"});
+  var eTeamInfo = db.collection('teams').find({conference: "eastern"});
   var templateArgs = {
-    title:'NBA Teams'
+    title:'NBA Teams',
+    wteam: wTeamInfo,
+    eteam: eTeamInfo
   }
   res.status(200).render('teams', templateArgs);
 });
