@@ -1,122 +1,182 @@
 [
   {
     "teamname": "Golden State Warriors",
-    "conference": "western"
+    "conference": "western",
+    "abrv": "gsw",
+    "salary": 66764744
   },
   {
     "teamname": "LA Clippers",
-    "conference": "western"
+    "conference": "western",
+    "abrv": "lac",
+    "salary": 110363335
   },
   {
     "teamname": "Los Angeles Lakers",
-    "conference": "western"
+    "conference": "western",
+    "abrv": "lal",
+    "salary": 83072356
   },
   {
     "teamname": "Phoenix Suns",
-    "conference": "western"
+    "conference": "western",
+    "abrv": "phx",
+    "salary": 72283168
   },
   {
     "teamname": "Sacramento Kings",
-    "conference": "western"
+    "conference": "western",
+    "abrv": "sac",
+    "salary": 76002582
   },
   {
     "teamname": "Dallas Mavericks",
-    "conference": "western"
+    "conference": "western",
+    "abrv": "dal",
+    "salary": 95788381
   },
   {
     "teamname": "Houston Rockets",
-    "conference": "western"
+    "conference": "western",
+    "abrv": "hou",
+    "salary": 91459053
   },
   {
     "teamname": "Memphis Grizzlies",
-    "conference": "western"
+    "conference": "western",
+    "abrv": "mem",
+    "salary": 95183339
   },
   {
     "teamname": "New Orleans Pelicans",
-    "conference": "western"
+    "conference": "western",
+    "abrv": "nop",
+    "salary": 92293531
   },
   {
     "teamname": "San Antonio Spurs",
-    "conference": "western"
+    "conference": "western",
+    "abrv": "sas",
+    "salary": 95827665
   },
   {
     "teamname": "Denver Nuggets",
-    "conference": "western"
+    "conference": "western",
+    "abrv": "den",
+    "salary": 74736978
   },
   {
     "teamname": "Minnesota Timberwolves",
-    "conference": "western"
+    "conference": "western",
+    "abrv": "min",
+    "salary": 79098223
   },
   {
     "teamname": "Oklahoma City Thunder",
-    "conference": "western"
+    "conference": "western",
+    "abrv": "okc",
+    "salary": 112873941
   },
   {
     "teamname": "Portland Trail Blazers",
-    "conference": "western"
+    "conference": "western",
+    "abrv": "por",
+    "salary": 141613267
   },
   {
     "teamname": "Utah Jazz",
-    "conference": "western"
+    "conference": "western",
+    "abrv": "uta",
+    "salary": 91416577
   },
   {
     "teamname": "Boston Celtics",
-    "conference": "eastern"
+    "conference": "eastern",
+    "abrv": "bos",
+    "salary": 71940058
   },
   {
     "teamname": "Brooklyn Nets",
-    "conference": "eastern"
+    "conference": "eastern",
+    "abrv": "bkn",
+    "salary": 74033813
   },
   {
     "teamname": "New York Knicks",
-    "conference": "eastern"
+    "conference": "eastern",
+    "abrv": "nyk",
+    "salary": 79417568
   },
   {
     "teamname": "Philadelphia 76ers",
-    "conference": "eastern"
+    "conference": "eastern",
+    "abrv": "phi",
+    "salary": 50792577
   },
   {
     "teamname": "Toronto Raptors",
-    "conference": "eastern"
+    "conference": "eastern",
+    "abrv": "tor",
+    "salary": 79626624
   },
   {
     "teamname": "Chicago Bulls",
-    "conference": "eastern"
+    "conference": "eastern",
+    "abrv": "chi",
+    "salary": 80192259
   },
   {
     "teamname": "Cleveland Cavaliers",
-    "conference": "eastern"
+    "conference": "eastern",
+    "abrv": "cle",
+    "salary": 129803438
   },
   {
     "teamname": "Detroit Pistons",
-    "conference": "eastern"
+    "conference": "eastern",
+    "abrv": "det",
+    "salary": 104287477
   },
   {
     "teamname": "Indiana Pacers",
-    "conference": "eastern"
+    "conference": "eastern",
+    "abrv": "ind",
+    "salary": 78788402
   },
   {
     "teamname": "Milwaukee Bucks",
-    "conference": "eastern"
+    "conference": "eastern",
+    "abrv": "mil",
+    "salary": 1081194482
   },
   {
     "teamname": "Atlanta Hawks",
-    "conference": "eastern"
+    "conference": "eastern",
+    "abrv": "atl",
+    "salary": 69152103
   },
   {
     "teamname": "Charlotte Hornets",
-    "conference": "eastern"
+    "conference": "eastern",
+    "abrv": "cha",
+    "salary": 112447034
   },
   {
     "teamname": "Miami Heat",
-    "conference": "eastern"
+    "conference": "eastern",
+    "abrv": "mia",
+    "salary": 70355225
   },
   {
     "teamname": "Orlando Magic",
-    "conference": "eastern"
+    "conference": "eastern",
+    "abrv": "orl",
+    "salary": 85852913
   },
   {
     "teamname": "Washington Wizards",
-    "conference": "eastern"
+    "conference": "eastern",
+    "abrv": "was",
+    "salary": 94299708
   }
 ]
