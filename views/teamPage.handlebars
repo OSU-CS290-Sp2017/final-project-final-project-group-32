@@ -1,0 +1,25 @@
+{{> header}}
+
+<main class="table-page">
+  <section class="table-box">
+    <h1 class="table-title" id="team-name">{{title}}</h1>
+
+    <table class="table-style">
+      <thead class= "table-header">
+      <tr>
+        <th>Player</th>
+        <th>Salary</th>
+      </tr>
+      </thead>
+      <tbody class="table-body">
+      {{#each players}}
+        {{>playerTable}}
+      {{/each}}
+      <tr>
+        <th class="info">Total</th>
+        <th class="info" id="team-salary-total">${{total}}</th>
+      </tr>
+      </tbody>
+    </table>
+  </section>
+</main>
