@@ -71,7 +71,6 @@ a {
 
 .error-container {
   text-align: center;
-  background-color: #5E92B5;
   color: #000000;
   margin-top: 25px;
 }
@@ -84,20 +83,21 @@ a {
   font-size: 25px;
 }
 
-.team-page {
+.table-page {
   display: flex;
   justify-content: center;
 }
 
-.team-page:last-child {
+.table-page:last-child {
   justify-content: flex-end;
 }
 
-.conf {
+.table-box {
   margin: 50px;
   width: 40%;
   border: 2px solid #000000;
   background-color: #FFFFFF;
+  box-shadow: 3px 3px 1px #000000;
 }
 
 .table-title {
@@ -107,31 +107,46 @@ a {
   padding: 10px;
 }
 
-.league-table {
+.table-style {
   color: #000000;
-}
-
-table {
   width: 100%;
   border-spacing: 0;
-}
-
-.table-header {
   text-align: left;
   font-size: 20px;
 }
 
-th {
-  padding: 8px;
-  text-align: left;
-  font-size: 20px;
-  border: none
-}
-
-thead th {
+.table-header th {
   border-bottom: 2px solid #000000;
+  padding: 10px;
 }
 
-tr:nth-child(even) {
+.table-body th {
+  border: none;
+}
+
+.draft-body th {
+  border: none;
+  padding: 8px;
+}
+
+.team-links {
+  text-decoration: none;
+  color: #000000;
+  display: block;
+}
+
+.team-links:hover {
   background-color: #D3D3D3;
+}
+
+.info {
+  padding: 8px;
+}
+
+button {
+  background-color: #006BB7;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  border: 1px solid #000000;
 }
